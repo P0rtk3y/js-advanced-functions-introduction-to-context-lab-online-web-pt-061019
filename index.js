@@ -17,7 +17,7 @@ function createEmployeeRecords(employeeArray){
 }
 
 function createTimeInEvent(employee, timeStamp){
-  let [date, time] = tmeStamp.split(' ')
+  let [date, time] = timeStamp.split(' ')
   employee.timeInEvents.push({
     type: "TimeIn",
     hour: parseInt(time, 10),
@@ -27,7 +27,7 @@ function createTimeInEvent(employee, timeStamp){
 }
 
 function createTimeOutEvent(employee, timeStamp){
-  let [date, time] = tmeStamp.split(' ')
+  let [date, time] = timeStamp.split(' ')
   employee.timeOutEvents.push({
     type: "TimeIn",
     hour: parseInt(time, 10),
