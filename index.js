@@ -53,3 +53,4 @@ function allWagesFor(employee){
   let wageOnDate = dates.map(date => wagesEarnedOnDate(employee, date))
   return wageOnDate.reduce((sum, date) => sum + date, 0)
 }
+
