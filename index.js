@@ -16,8 +16,8 @@ function createEmployeeRecords(employeeArray){
   return employeeArray.map(employee => createEmployeeRecord(employee));
 }
 
-function createTimeInEvent(employee, timeInStamp){
-  let [date, time] = tmeInStamp.split(' ')
+function createTimeInEvent(employee, timeStamp){
+  let [date, time] = tmeStamp.split(' ')
   employee.timeInEvents.push({
     type: "TimeIn",
     hour: parseInt(time, 10),
@@ -26,3 +26,12 @@ function createTimeInEvent(employee, timeInStamp){
   return employee;
 }
 
+function createTimeOutEvent(employee, timeInStamp){
+  let [date, time] = tmeInStamp.split(' ')
+  employee.timeInEvents.push({
+    type: "TimeIn",
+    hour: parseInt(time, 10),
+    date: date
+  })
+  return employee;
+}
