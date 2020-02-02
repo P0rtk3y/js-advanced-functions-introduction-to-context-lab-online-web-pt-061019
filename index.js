@@ -50,5 +50,5 @@ function wagesEarnedOnDate(employee, date){
 
 function allWagesFor(employee){
   let dates = employee.timeInEvents.map(em => em.date)
-  let 
+  let wageOnDate = 
 }
