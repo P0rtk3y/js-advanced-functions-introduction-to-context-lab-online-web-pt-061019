@@ -47,3 +47,4 @@ function hoursWorkedOnDate(employee, date){
 function wagesEarnedOnDate(employee, date){
   return hoursWorkedOnDate(employee, date) * employee.payPerHour;
 }
+
