@@ -49,5 +49,5 @@ function wagesEarnedOnDate(employee, date){
 }
 
 function allWagesFor(employee){
-  let dates = employee.
+  let dates = employee.map(date => )
 }
