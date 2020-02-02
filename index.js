@@ -37,11 +37,11 @@ function createTimeOutEvent(employee, timeStamp){
 }
 
 function hoursWorkedOnDate(employee, date){
-    let timeIn = employee.timeInEvents.find(el => el.date === date)
-    let timeOut = employee.timeOutEvents.find(el => el.date === date)
-    let hoursWorked = (timeOut.hour - timeIn.hour) / 100
-   
-    return hoursWorked; 
+  let timeIn = employee.timeInEvents.find(el => el.date === date)
+  let timeOut = employee.timeOutEvents.find(el => el.date === date)
+  let hoursWorked = (timeOut.hour - timeIn.hour) / 100
+ 
+  return hoursWorked; 
 }
 
 function wagesEarnedOnDate(employee, date){
@@ -49,5 +49,5 @@ function wagesEarnedOnDate(employee, date){
 }
 
 function allWagesFor(employee){
-  
+  let
 }
