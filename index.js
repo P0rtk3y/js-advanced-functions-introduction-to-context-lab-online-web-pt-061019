@@ -44,4 +44,6 @@ function hoursWorkedOnDate(employee, date){
     return hoursWorked; 
 }
 
-function 
+function wagesEarnedOnDate(employee, date){
+  
+}
