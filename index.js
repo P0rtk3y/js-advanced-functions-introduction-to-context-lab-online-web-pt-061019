@@ -48,4 +48,6 @@ function wagesEarnedOnDate(employee, date){
   return hoursWorkedOnDate(employee, date) * employee.payPerHour;
 }
 
-function allWagesFor()
+function allWagesFor(employee){
+  
+}
