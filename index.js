@@ -29,7 +29,7 @@ function createTimeInEvent(employee, timeStamp){
 function createTimeOutEvent(employee, timeStamp){
   let [date, time] = timeStamp.split(' ')
   employee.timeOutEvents.push({
-    type: "TimeIn",
+    type: "TimeOut",
     hour: parseInt(time, 10),
     date: date
   })
