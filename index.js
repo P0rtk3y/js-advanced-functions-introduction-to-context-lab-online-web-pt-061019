@@ -49,5 +49,5 @@ function wagesEarnedOnDate(employee, date){
 }
 
 function allWagesFor(employee){
-  let
+  let 
 }
