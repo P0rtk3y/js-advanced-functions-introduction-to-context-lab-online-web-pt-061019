@@ -36,3 +36,4 @@ function createTimeOutEvent(employee, timeStamp){
   return employee;
 }
 
+function hoursWorkedOnDate
